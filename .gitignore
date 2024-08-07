@@ -1,3 +1,5 @@
-\operandoConArrays
-\.vscode
+valormax.cpp
+valormin.cpp
+valormax.h
+valormin.h
 .gitignore

@@ -1,30 +1,11 @@
 #include <iostream>
 using namespace std;
+#include "valormax.h"
+#include "valormin.h"
 
 const int SIZE = 10;
 int numbers[SIZE] = {5, 2, 9, 1, 5, 6, 3, 2, 7, 8};
 
-int ValorMax(){
-        // Encontrar el valor máximo
-    int maxVal = numbers[0];
-    for (int i = 1; i < SIZE; i++) {
-        if (numbers[i] > maxVal) {
-            maxVal = numbers[i];
-        }
-    }
-    cout << "Valor máximo: " << maxVal << endl;
-}
-
-int ValorMin(){
-    // Encontrar el valor mínimo
-    int minVal = numbers[0];
-    for (int i = 1; i < SIZE; i++) {
-        if (numbers[i] < minVal) {
-            minVal = numbers[i];
-        }
-    }
-    cout << "Valor mínimo: " << minVal << endl;
-}
 
 
 int main() {
